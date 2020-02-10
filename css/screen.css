@@ -155,12 +155,12 @@ nav h2 {
 }
 
 nav {
-    height:32px;
+    height:40px;
 }
 
 nav ul li {
     float: left;
-    margin: 5px 15px;
+    margin: 5px 10px;
     list-style: none;
 }
 header {
@@ -180,8 +180,22 @@ header {
 */
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-
+@media (max-width: 576px) {
+    nav ul li{
+        float:none;
+        margin:0;
+    }
+    nav ul {
+        padding:0;
+    }
+    nav h2 {
+        float:none;
+        margin: 0 0 5px;
+    }
+    nav {
+        height:100%;
+    }
+    
 }
 
 /* Medium devices (tablets, 768px and up) */

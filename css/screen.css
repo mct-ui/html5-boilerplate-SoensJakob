@@ -1,5 +1,5 @@
 body{
-    background: khaki;
+    background: white;
 }
 /*
     Elements: Page
@@ -12,7 +12,8 @@ html {
     line-height: 1.5;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #111111;
-    margin: 24px 24px 0; 
+    margin: 48px 48px 24px;
+    scroll-behavior: smooth; 
     /* Padding staat voor 24px 24px 0px 24px */
 }
 
@@ -131,6 +132,24 @@ a:focus {
     color: crimson;
 }
 
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+th {
+    text-align: left;
+}
+
+th,
+td {
+    padding: 4px 8px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.odd {
+    background-color: whitesmoke;
+}
 /*
     Media Queries
     ---

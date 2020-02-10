@@ -150,6 +150,22 @@ td {
 .odd {
     background-color: whitesmoke;
 }
+nav h2 {
+    float:left;
+}
+
+nav {
+    height:32px;
+}
+
+nav ul li {
+    float: left;
+    margin: 5px 15px;
+    list-style: none;
+}
+header {
+    margin-top: 24px;
+}
 /*
     Media Queries
     ---
